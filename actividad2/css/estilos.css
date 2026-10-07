@@ -1,0 +1,32 @@
+		th{
+			color:indigo; 
+			background-color:grey;
+			text-align: center;
+		}
+		tr{
+			text-aling: center;
+		}
+		.sistemas{
+			background-color: greenyellow;
+		}
+		.Ingles{
+			background-color: yellow;
+		}
+		.aplicaciones{
+			background-color: grey;
+		}
+		.Servicios{
+			background-color: lightsalmon;
+		}
+		.IPE{
+			background-color: orange;
+		}
+		.Seguridad{
+			background-color: red;
+		}
+		.Proyecto{
+			background-color: cyan;
+		}
+		.Programacion{
+			background-color: magenta;
+		}
