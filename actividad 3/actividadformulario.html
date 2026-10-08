@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Actividad 4 Formulario</title>
+</head>
+<body>
+	<h1>Formularios</h1>
+	<!-- Formulario de registro de datos -->
+		<form taget="_blanck" method="post">
+			<fieldset>
+				<legend>Datos personales</legend>
+				<p>
+					<label for ="txtNombre">Nombre:</label>
+					<input type="text" name="txtNombre" id="txtNombre"required autofocus>
+				</p>
+				<p>
+				<label for="txtCorreo">correo</label>
+				<input type="email" name="txtEmail" id="txtEmail" required> 
+				</p>
+				<p>
+				<label for="txtURL">URL</label>
+				<input type="URL" name="txtURL" id="txtURL" placeholder="Inserta la URL de tu pagina web" size="22">	
+				</p>
+				<label for="sCiudad">Ciudad</label>
+				<select name="sCiudad" id="sCiudad">
+					<option value="--">--</option>
+					<option value="CO">CORDOBA</option>
+					<option value="MA">MALAGA</option>
+					<option selected value="SE">SEVILLA</option>
+					<option value="GR">GRANADA</option>
+					<option value="JA">JAEN</option>
+					<option value="Hu">HUELVA</option>
+					<option value="AL">ALMERIA</option>
+					<option value="CA">CADIZ</option>
+				</select>
+			    </fieldset>
+			<fieldset>
+			    <legend>Otros datos</legend>
+			    <p>
+			    <label for="txtFecha">Fecha:</label>
+			    <input type="date" id="txtFecha" name="txtFecha">
+			</p>
+			<p>
+				<label for="txtTiempo">Tiempo</label>
+				<input type="time" id="txtTiempo" name="txtTiempo">
+			</p>
+        </form>
+			
+				<p>
+				 <label for="txtfechayhora">FECHA Y HORA</label>
+				 <input type="datetime" id="txtfechayhora" name="txtfechayhora">
+				</p>
+
+
+				 
+			</fieldset>    
+	        
+</body>
+</html>
