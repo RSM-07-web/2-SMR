@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+
+}
+.caja1{
+	margin:2%;
+	padding: 20px;
+	width: 40%;estilosEJ2
+	text-align: justify;
+	background-color: yellowgreen;
+	border: 10px solid orange;
+}
+.caja2 {
+	margin: 2%;
+	border: 3px dashed black;
+	width: 40%;
+	padding: 15px;
+	text-align: justify;
+	background-color: lightgoldenrodyellow;
+	border-radius: 10px 50px;
+	border-width: 2px;
+	box-shadow: 5px 9px 3px gray;
+}
+
+.caja3{
+	margin: 2%;
+	float: right;
+	width: 40%;
+	text-align: justify;
+	border: 10px dashed;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
