@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: yellow;
+    font-family: arial;
+}
+h1{
+    text-align: center;
+    letter-spacing: 10px;
+    front-size: 300%;
+    color: blue;
+    font-family: Audiowide;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightpink;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: lightgray;
+}
